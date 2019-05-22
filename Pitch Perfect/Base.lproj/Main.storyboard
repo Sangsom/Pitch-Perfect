@@ -18,27 +18,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to start recording " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUr-cb-K5d">
-                                <rect key="frame" x="122" y="116" width="170" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncI-5A-LGu">
-                                <rect key="frame" x="130" y="371" width="155" height="155"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncI-5A-LGu">
+                                <rect key="frame" x="129.5" y="370.5" width="155" height="155"/>
                                 <state key="normal" image="Record"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pitch Perfect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTh-De-Nez">
-                                <rect key="frame" x="125" y="53" width="164" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pitch Perfect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTh-De-Nez">
+                                <rect key="frame" x="125" y="44" width="164" height="36"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" red="0.14901960784313725" green="0.10980392156862745" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to start recording " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUr-cb-K5d">
+                                <rect key="frame" x="122" y="88" width="170" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.83137254901960778" green="0.98431372549019602" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GUr-cb-K5d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B7f-Y4-HMH"/>
+                            <constraint firstItem="ncI-5A-LGu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HD2-PA-RyA"/>
+                            <constraint firstItem="WTh-De-Nez" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ohx-7h-3c1"/>
+                            <constraint firstItem="GUr-cb-K5d" firstAttribute="top" secondItem="WTh-De-Nez" secondAttribute="bottom" constant="8" id="ZhE-Jv-d0e"/>
+                            <constraint firstItem="WTh-De-Nez" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kQE-hq-OAb"/>
+                            <constraint firstItem="ncI-5A-LGu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="r3f-cd-c4Q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
