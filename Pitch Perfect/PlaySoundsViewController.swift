@@ -63,4 +63,8 @@ class PlaySoundsViewController: UIViewController {
         super.viewWillAppear(animated)
         configureUI(.notPlaying)
     }
+
+    @IBAction func recordNewSound(_ sender: UIButton) {
+        navigationController?.popToRootViewController(animated: true)
+    }
 }

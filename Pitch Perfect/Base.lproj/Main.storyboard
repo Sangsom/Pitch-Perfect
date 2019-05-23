@@ -129,14 +129,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="k7a-PE-Ziz" userLabel="Bottom Row">
                                         <rect key="frame" x="58.5" y="210" width="216" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYm-bp-Q5C" userLabel="Echo Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYm-bp-Q5C" userLabel="Echo Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 <state key="normal" image="Echo"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Ox8-ng-PX4" eventType="touchUpInside" id="r9K-so-Bg3"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLd-UD-vbq" userLabel="Reverb Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLd-UD-vbq" userLabel="Reverb Button">
                                                 <rect key="frame" x="126" y="0.0" width="90" height="90"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <connections>
@@ -162,6 +162,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLb-bM-7t3">
                                 <rect key="frame" x="122" y="648" width="170" height="30"/>
                                 <state key="normal" title="RECORD A NEW SOUND"/>
+                                <connections>
+                                    <action selector="recordNewSound:" destination="Ox8-ng-PX4" eventType="touchUpInside" id="eDK-7q-TtZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
