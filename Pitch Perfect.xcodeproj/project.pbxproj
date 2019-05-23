@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1B76087822955B6000E88BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B76087722955B6000E88BFC /* AppDelegate.swift */; };
-		1B76087A22955B6000E88BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B76087922955B6000E88BFC /* ViewController.swift */; };
+		1B76087A22955B6000E88BFC /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B76087922955B6000E88BFC /* RecordSoundsViewController.swift */; };
 		1B76087D22955B6000E88BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B76087B22955B6000E88BFC /* Main.storyboard */; };
 		1B76087F22955B6000E88BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B76087E22955B6000E88BFC /* Assets.xcassets */; };
 		1B76088222955B6000E88BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B76088022955B6000E88BFC /* LaunchScreen.storyboard */; };
+		1BC8678B22967A68002BDBE0 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8678A22967A68002BDBE0 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B76087422955B6000E88BFC /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B76087722955B6000E88BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B76087922955B6000E88BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B76087922955B6000E88BFC /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		1B76087C22955B6000E88BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B76087E22955B6000E88BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B76088122955B6000E88BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B76088322955B6000E88BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC8678A22967A68002BDBE0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				1B76087722955B6000E88BFC /* AppDelegate.swift */,
-				1B76087922955B6000E88BFC /* ViewController.swift */,
+				1B76087922955B6000E88BFC /* RecordSoundsViewController.swift */,
 				1B76087B22955B6000E88BFC /* Main.storyboard */,
 				1B76087E22955B6000E88BFC /* Assets.xcassets */,
 				1B76088022955B6000E88BFC /* LaunchScreen.storyboard */,
 				1B76088322955B6000E88BFC /* Info.plist */,
+				1BC8678A22967A68002BDBE0 /* .swiftlint.yml */,
 			);
 			path = "Pitch Perfect";
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC8678B22967A68002BDBE0 /* .swiftlint.yml in Resources */,
 				1B76088222955B6000E88BFC /* LaunchScreen.storyboard in Resources */,
 				1B76087F22955B6000E88BFC /* Assets.xcassets in Resources */,
 				1B76087D22955B6000E88BFC /* Main.storyboard in Resources */,
@@ -156,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B76087A22955B6000E88BFC /* ViewController.swift in Sources */,
+				1B76087A22955B6000E88BFC /* RecordSoundsViewController.swift in Sources */,
 				1B76087822955B6000E88BFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
