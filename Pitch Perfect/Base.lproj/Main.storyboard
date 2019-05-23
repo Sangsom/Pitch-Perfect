@@ -70,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="3397.1014492753625" y="20.758928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="Mtm-NM-e9X">
             <objects>
-                <viewController id="Ox8-ng-PX4" sceneMemberID="viewController">
+                <viewController id="Ox8-ng-PX4" customClass="PlaySoundsViewController" customModule="Pitch_Perfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Sb-5N-IQJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
