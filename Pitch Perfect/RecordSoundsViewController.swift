@@ -39,7 +39,9 @@ class RecordSoundsViewController: UIViewController {
         let filePath = URL(string: pathArray.joined(separator: "/"))
 
         let session = AVAudioSession.sharedInstance()
-        try! session.setCategory(AVAudioSession.Category.playAndRecord, mode: AVAudioSession.Mode.default, options: AVAudioSession.CategoryOptions.defaultToSpeaker)
+        try! session.setCategory(AVAudioSession.Category.playAndRecord,
+                                 mode: AVAudioSession.Mode.default,
+                                 options: AVAudioSession.CategoryOptions.defaultToSpeaker)
 
         try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
         audioRecorder.isMeteringEnabled = true
@@ -55,5 +57,7 @@ class RecordSoundsViewController: UIViewController {
         audioRecorder.stop()
         let audioSession = AVAudioSession.sharedInstance()
         try! audioSession.setActive(false)
+
+        performSegue(withIdentifier: "stopRecording", sender: sender)
     }
 }
