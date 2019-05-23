@@ -20,12 +20,8 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-
         stopButton.isHidden = true
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
 
     @IBAction func recordButton(_ sender: UIButton) {
