@@ -126,11 +126,33 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pitch Perfect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dow-0m-RnI">
+                                <rect key="frame" x="125.5" y="96" width="163.5" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" red="0.14901960780000001" green="0.10980392160000001" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a sound filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo5-ht-0yu">
+                                <rect key="frame" x="131" y="257.5" width="152.5" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLb-bM-7t3">
+                                <rect key="frame" x="122" y="648" width="170" height="30"/>
+                                <state key="normal" title="RECORD A NEW SOUND"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="eLb-bM-7t3" firstAttribute="centerX" secondItem="YHq-hb-2Lp" secondAttribute="centerX" id="6bO-zu-uUM"/>
+                            <constraint firstItem="eLb-bM-7t3" firstAttribute="top" secondItem="YHq-hb-2Lp" secondAttribute="bottom" constant="50" id="8kS-hz-6PT"/>
+                            <constraint firstItem="dow-0m-RnI" firstAttribute="centerX" secondItem="9Sb-5N-IQJ" secondAttribute="centerX" id="AiN-x1-HnV"/>
+                            <constraint firstItem="Yo5-ht-0yu" firstAttribute="centerX" secondItem="9Sb-5N-IQJ" secondAttribute="centerX" id="AyA-0c-Rt4"/>
+                            <constraint firstItem="YHq-hb-2Lp" firstAttribute="top" secondItem="Yo5-ht-0yu" secondAttribute="bottom" constant="20" id="Q3m-Dd-sg6"/>
                             <constraint firstItem="YHq-hb-2Lp" firstAttribute="centerX" secondItem="9Sb-5N-IQJ" secondAttribute="centerX" id="UVY-6I-ISV"/>
                             <constraint firstItem="YHq-hb-2Lp" firstAttribute="centerY" secondItem="9Sb-5N-IQJ" secondAttribute="centerY" id="kIO-HU-hpZ"/>
+                            <constraint firstItem="dow-0m-RnI" firstAttribute="top" secondItem="kJy-34-9IZ" secondAttribute="top" constant="8" id="w4R-Cc-uLS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kJy-34-9IZ"/>
                     </view>
